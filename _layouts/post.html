@@ -37,6 +37,10 @@
 <body>
     <div class="container">                    
         <div class = "box">
+            {%- if page.content-type == "notes" -%}
+            {%- include header.html -%}
+            {%- endif -%}
+            
             {%- include feed.html -%}
 
             {%- if page.content-type == "notes" 
