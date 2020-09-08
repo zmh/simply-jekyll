@@ -73,15 +73,52 @@ h1 {
 
 h2 {
     font-size: 25px;
+    font-family: Sentinel-Bold;
 }
 
 h3 {
     font-size: 22px;
+
+}
+
+/* iphone */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+
+}
+
+/* small ipad */
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 768px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    width: 25%;
+    margin-left: -29%;
     position: absolute;
     text-align: right;
-    width: 260px;
+    left: 0;
+}
+
+/* lg ipad */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1200px) {
+    width: 25%;
+    margin-left: -29%;
+    position: absolute;
+    text-align: right;
+    left: 0;
+
+}
+
+/* laptop */
+@media only screen  
+  and (min-device-width: 1200px) {
+    width: 40%;
     margin-left: -42%;
-    margin-top: -2px;
+    position: absolute;
+    text-align: right;
     left: 0;
 }
 
@@ -99,8 +136,8 @@ h6 {
 
 h1, h2, h3, h4, h5, h6 {
     color: #212121;
-    font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    font-weight: 600;
+    /*font-family:  Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    font-weight: 600;*/
 }  
 
 a, p, ul, li, ol, table, span, blockquote {
@@ -1352,7 +1389,7 @@ width: 30% !important;
 @media screen and (max-width: 800px){
 
 .box {
-    width: 80%;
+    width: 60%;
 }
 
 label {
