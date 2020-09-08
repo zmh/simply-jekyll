@@ -1,5 +1,6 @@
 ---
 title: How to use Simply Jekyll features on your website
+subtitle: A tour of the website itself
 tags: jekyll theme
 comments: true
 ---
