@@ -214,6 +214,10 @@ h3 {
         text-align: right;
         left: 0;
     }
+    main {
+        margin-top: 180px;
+    }
+
 }
 
 /* lg ipad */
@@ -227,6 +231,10 @@ h3 {
         text-align: right;
         left: 0;
     }
+    main {
+        margin-top: 180px;
+    }
+
 }
 
 /* laptop */
@@ -239,6 +247,9 @@ h3 {
         text-align: right;
         left: 0;
         margin-top: -2px;
+    }
+    main {
+        margin-top: 180px;
     }
 }
 
